@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ThinkBridgeDBModelStoreContainer" CdmEntityContainer="ThinkBridgeDBEntities">
+    <EntitySetMapping Name="Items">
+      <EntityTypeMapping TypeName="ThinkBridgeDBModel.Item">
+        <MappingFragment StoreEntitySet="Item">
+          <ScalarProperty Name="itemid" ColumnName="itemid" />
+          <ScalarProperty Name="itemname" ColumnName="itemname" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
